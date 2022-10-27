@@ -20,3 +20,19 @@ code {
 h1 {
   font-weight: 700;
 }
+
+.card {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card-img-top {
+  width: 95%;
+  max-height: 265px;
+  max-width: 265px;
+  margin: 5px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #fff;
+}
