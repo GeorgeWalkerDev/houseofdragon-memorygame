@@ -52,6 +52,7 @@ function App() {
   return (
     <div className="mx-4">
       <Header score={score}/>
+      <p>Get points by clicking on an image but don't click any more than once!</p>
       <Main cards={cards}/>
     </div>
   );
