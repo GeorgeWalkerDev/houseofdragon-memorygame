@@ -47,7 +47,7 @@ function App() {
     return () => {
       cardsDOM.forEach((node) => node.removeEventListener('click', randomiseCards))
     };
-  }, [cards, score])
+  })
 
   return (
     <div className="mx-4">
